@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  max-width: 500px;
+  min-height: 450px;
+  margin: 0 auto;
+  border-radius: 25px;
+  border: 1px solid grey;
+  padding-bottom: 4em;
+}
+
+.form-cont form{
+    padding:1em
+}
+
+h5{
+    padding-top: 1em;
+    font-family: 'Lato', sans-serif;
+    color: #456488;
+}
+
+label{
+    display: block;
+    padding: .5em 0;
+    font-family: 'Lato', sans-serif;
+}
+.form-cont Input{
+    padding: 12px 30px;
+
+}
+.pass-wrapper {
+    position: relative;
+    display: flex;
+    margin-bottom: 14px;
+  }
+  
+.pass-icon {
+    position: absolute;
+    top: 65%;
+    right: 16%;
+}
+
+.pass-icon :hover{
+    cursor: pointer;
+    
+}
+
+button{
+    outline: none;
+    padding: 0.4em 2.5em;
+    margin-top: 1em;
+    background-color:#456488 ;
+    border: none;
+    font-family: 'Lato', sans-serif;
+}
+button:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+h6{
+    font-family: 'Lato', sans-serif;
+}
+
