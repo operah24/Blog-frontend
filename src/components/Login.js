@@ -4,7 +4,8 @@ import Button from './Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 
-function Login({ name, email, password, handleSubmit, handleChange }) {
+
+function Login({ email, password, handleSubmit, handleChange }) {
   const [passwordShown, setPasswordShown] = useState(false);
 
   const togglePasswordVisibility = () => {
@@ -14,7 +15,7 @@ function Login({ name, email, password, handleSubmit, handleChange }) {
     <form onSubmit={handleSubmit}>
       <Input
         type="text"
-        name="Email"
+        name="email"
         value={email}
         label="Email"
         placeholder="Email"
@@ -23,7 +24,7 @@ function Login({ name, email, password, handleSubmit, handleChange }) {
       <div className="pass-wrapper">
         <Input
           type={passwordShown ? 'text' : 'password'}
-          name="Password"
+          name="password"
           value={password}
           label="Password"
           placeholder="Password"

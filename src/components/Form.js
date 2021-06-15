@@ -14,7 +14,7 @@ function Form({ name, email, password, handleSubmit, handleChange }) {
     <form onSubmit={handleSubmit}>
       <Input
         type="text"
-        name="Name"
+        name="name"
         value={name}
         label="Name"
         placeholder="Name"
@@ -22,7 +22,7 @@ function Form({ name, email, password, handleSubmit, handleChange }) {
       />
       <Input
         type="text"
-        name="Email"
+        name="email"
         value={email}
         label="Email"
         placeholder="Email"
@@ -31,7 +31,7 @@ function Form({ name, email, password, handleSubmit, handleChange }) {
       <div className="pass-wrapper">
         <Input
           type={passwordShown ? 'text' : 'password'}
-          name="Password"
+          name="password"
           value={password}
           label="Password"
           placeholder="Password"
